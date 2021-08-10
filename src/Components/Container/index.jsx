@@ -2,6 +2,7 @@ import React from "react";
 
 import Titulo from "../Titulo";
 import Conta from "../Conta";
+import Extrato from "../Extrato";
 
 import styled from 'styled-components';
 import { fundoClaro } from '../UI/variaveis';
@@ -28,6 +29,7 @@ const Container = () => {
       <Titulo>Olá Fulano!</Titulo>
       <Conteudo>
         <Conta />
+        <Extrato />
       </Conteudo>
     </ContainerWrapper>
   );
